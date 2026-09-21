@@ -1,0 +1,17 @@
+{
+  "name": "wa-backup-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp Chat Exporter Bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "@hapi/boom": "^10.0.1",
+    "axios": "^1.7.0",
+    "form-data": "^4.0.0",
+    "pino": "^9.0.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
